@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <cstdint>
 #include <string>
+#include <unistd.h>
 
 int g_init = 123;                  // .data
 int g_uninit;                      // .bss
@@ -61,7 +62,8 @@ int main() {
     print_addr("string literal", literal);
 
     std::cout << "\nTip: run `cat /proc/" << getpid() << "/maps` in another terminal on Linux to inspect process VMAs.\n";
-
+    std::cout << "Press Enter to exit...\n";
+    std::cin.get();
     delete heap_var;
     return 0;
 }
