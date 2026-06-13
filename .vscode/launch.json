@@ -19,6 +19,11 @@
           "ignoreFailures": true
         },
         {
+          "description": "Break at user main, skip libc startup",
+          "text": "-break-insert -t main",
+          "ignoreFailures": true
+        },
+        {
           "description": "Skip glibc startup files",
           "text": "skip file */csu/*",
           "ignoreFailures": true

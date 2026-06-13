@@ -1,4 +1,4 @@
-# cpp_memory_lab
+# Cpp Lab
 
 A small C++17 lab project for learning C++.
 
