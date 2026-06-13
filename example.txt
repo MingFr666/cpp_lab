@@ -1,3 +1,0 @@
-Hello, World!
-This is a moved file handle.
-This is another moved file handle.
