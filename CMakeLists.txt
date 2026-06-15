@@ -27,6 +27,8 @@ if(BUILD_EXPERIMENTS)
 	add_subdirectory(experiments/thread_pool)
 	add_subdirectory(experiments/unique_ptr)
 	add_subdirectory(experiments/raii_class)
+	add_subdirectory(experiments/share_ptr)
+	add_subdirectory(experiments/spin_lock)
 endif()
 
 
